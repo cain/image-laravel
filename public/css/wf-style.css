@@ -1,0 +1,119 @@
+.wf-container:before,.wf-container:after {
+    content: '';
+    display: table;
+}
+.wf-container:after {
+    clear: both;
+}
+.wf-column {
+    float: left;
+}
+/* reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #419aff;
+}
+a:hover { color: #41ccff; }
+
+/* customize button */
+
+.btn:active {
+    background-image: none;
+    outline: 1;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+
+/* header */
+.header {
+    background: #cccccc;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #404040;
+}
+.header p {
+    margin: 12px 0;
+}
+.header .btn-group {
+    margin: 8px 0;
+}
+
+/* style for waterfall grid */
+.wf-container {
+    margin: 0 auto;
+}
+.wf-container:before,.wf-container:after {
+    content: '';
+    display: table;
+}
+.wf-container:after {
+    clear: both;
+}
+.wf-box {
+    margin: 5px 2px;;
+
+}
+.wf-box img {
+    display: block;
+    width: 100%;
+}
+.wf-box .content {
+    color:white;
+    border-top-width: 0;
+    padding: 5px 8px;
+    text-shadow: 0 3px 1px rgba(0,0,0,.1);
+
+}
+.wf-column {
+    float: left;
+}
+
+@media screen and (min-width: 768px) {
+    .wf-container { width: 750px; }
+}
+@media screen  and (min-width: 992px) {
+    .wf-container { width: 970px; }
+}
+@media screen and (min-width: 1200px) {
+    .wf-container {     width: 80%;}
+}
+
+@media screen and (min-width: 768px) {
+    .header-container { width: 750px; }
+}
+@media screen  and (min-width: 992px) {
+    .header-container { width: 970px; }
+}
+@media screen and (min-width: 1200px) {
+    .header-container {     width: 80%;}
+}
+
+/* style for waterfall grid */
+.header-container {
+    margin: 0 auto;
+}
+.header-container:before,.header-container:after {
+    content: '';
+    display: table;
+}
+.header-container:after {
+    clear: both;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-item { margin-right:10px; }
+}
+
+@media screen and (min-width: 640px) {
+    .menu-item { margin-right:0px; }
+}
