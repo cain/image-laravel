@@ -105,7 +105,7 @@ body {
 
 section {
 
-  
+
   padding: 60px 0 0;
 
   width: 100%;
@@ -116,7 +116,7 @@ h1 {
 }
 
 p {
-  width: 90%;
+  /*width: 90%;*/
   margin: 0 auto;
 }
 
@@ -132,7 +132,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-    
+
 }
 
 header a:hover {
@@ -226,7 +226,7 @@ header a:hover {
 }
 
 .nav-collapse li {
-        
+
   float: left;
   width: 50%;
         text-align: center;
@@ -264,7 +264,7 @@ header a:hover {
     margin: 0;
     margin-top: 7px;
     border-radius: 3px;
-     
+
   }
 }
 
@@ -348,7 +348,7 @@ body {
 .page-header {
     font: 300 34px/40px Roboto,sans-serif;
     letter-spacing: -.01em; text-align:center;
-    
+
     padding-bottom:20px;
     border-bottom: 1px solid #000;
 }
@@ -359,7 +359,7 @@ body {
     font-size:8px;
 }
 
-.content{ 
+.content{
 display: none;
     padding:4px 5px;;
 }
@@ -384,13 +384,13 @@ display : block;
 }
 
 .login:hover {
-    
+
     background-color: rgba(0,0,0,0.2);
 }
 
 .share:hover {
     background-color: #96c996;
-    
+
 }
 
 
@@ -422,11 +422,11 @@ display : block;
 }
 
 .search input[type=text]:focus {
-   
+
 }
 .social-reddit {
-  
-    
+
+
 }
 
 .social {
@@ -434,7 +434,7 @@ display : block;
     padding:10px 20px;;
     margin-left:10px;
 
-    
+
 }
 
 .reddit {

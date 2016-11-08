@@ -15,5 +15,18 @@
       <div class="wf-box"><a href="#">
           <img class="img-wf" src="img/gta5.jpg"></a>
       </div>
+      <div class="wf-box"><a href="#">
+          <img class="img-wf" src="img/gta5.jpg"></a>
+      </div>
+      <div class="wf-box"><a href="#">
+          <img class="img-wf" src="img/gta5.jpg"></a>
+      </div>
+      <div class="wf-box"><a href="#">
+          <img class="img-wf" src="img/gta5.jpg"></a>
+      </div>
+      <div class="wf-box"><a href="#">
+          <img class="img-wf" src="img/gta5.jpg"></a>
+      </div>
+      
   </div>
 @endsection

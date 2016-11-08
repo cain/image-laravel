@@ -8,13 +8,17 @@ use App\Http\Requests;
 
 use App\Post;
 
+use App\File;
+
 class PostController extends Controller
 {
     //
-    public function index($id)
+    public function indexGet($slug)
     {
-      $post = Post::find($id);
+      $post = Post::where('slug', $slug)->first();
 
-      return view('post.index');s
+      $file = File::where('post_id', $post->id)->first();
+
+      return view('post.index', compact('post', 'file'));
     }
 }

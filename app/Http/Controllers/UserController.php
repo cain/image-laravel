@@ -26,6 +26,7 @@ class UserController extends Controller
       $post = new Post;
       $post->user_id = Auth::id();
       $post->title = $request->title;
+      $post->slug = str_random(5);
 
       $post->save();
 
@@ -35,6 +36,6 @@ class UserController extends Controller
       $file->path = $file_path;
       $file->post_id = $post->id;
       $file->save();
-      return redirect('/p/' . $post->id);
+      return redirect('/p/' . $post->slug);
     }
 }
